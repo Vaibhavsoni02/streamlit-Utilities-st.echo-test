@@ -1,2 +1,23 @@
 # streamlit-Utilities-st.echo-test
 I am learning to use streamlit one step at a time.
+
+st.echo
+Streamlit Version
+v1.18.0
+Use in a `with` block to draw some code on the app, then execute it.
+Function signature
+st.echo(code_location="above")
+
+Parameters
+code_location ("above" or "below")
+
+Whether to show the echoed code before or after the results of the executed code block.
+
+Example
+import streamlit as st
+
+with st.echo():
+    st.write('This code will be printed')
+    
+    ![image](https://user-images.githubusercontent.com/93029661/220639631-d5e13580-9417-4c44-907c-0b0cb04b3273.png)
+
