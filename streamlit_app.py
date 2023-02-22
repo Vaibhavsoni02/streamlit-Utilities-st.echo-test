@@ -6,32 +6,24 @@
 # st.echo(code_location="above" or "below")
 # Whether to show the echoed code before or after the results of the executed code block.
 
- #import streamlit as st
-
-#with st.echo():
-   # st.write('This code will be printed')
-    
-    
-   
 import streamlit as st
 
 def get_user_name():
-    return 'Vaibhav'
+    return 'John'
 
-# ------------------------------------------------
-# Want people to see this part of the code...
+with st.echo():
+    # Everything inside this block will be both printed to the screen
+    # and executed.
 
-def get_punctuation():
-    return '!!!'
+    def get_punctuation():
+        return '!!!'
 
-greeting = "Hi there, "
-user_name = get_user_name()
-punctuation = get_punctuation()
+    greeting = "Hi there, "
+    value = get_user_name()
+    punctuation = get_punctuation()
 
-st.write(greeting, user_name, punctuation)
+    st.write(greeting, value, punctuation)
 
-# ...up to here
-# ------------------------------------------------
-
+# And now we're back to _not_ printing to the screen
 foo = 'bar'
 st.write('Done!')
