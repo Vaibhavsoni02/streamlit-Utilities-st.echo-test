@@ -12,7 +12,8 @@
    # st.write('This code will be printed')
     
     
-    import streamlit as st
+   
+import streamlit as st
 
 def get_user_name():
     return 'John'
