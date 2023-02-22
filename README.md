@@ -8,7 +8,7 @@ Streamlit Version
 v1.18.0
 Use in a `with` block to draw some code on the app, then execute it.
 Function signature
-st.echo(code_location="above")
+st.echo(code_location="above"):
 
 Parameters
 code_location ("above" or "below")
