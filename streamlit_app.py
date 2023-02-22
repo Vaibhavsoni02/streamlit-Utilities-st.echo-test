@@ -24,8 +24,8 @@ with st.echo():
 
     st.write(greeting, value, punctuation)
 
-    st.write(value, punctuation)
-st.write(value, punctuation)
+    st.write(value, punctuation)    #will print the outside block.
+st.write(value, punctuation)        #will not print the outside block.
 # And now we're back to _not_ printing to the screen
 foo = 'bar'
 st.write('Done!')
