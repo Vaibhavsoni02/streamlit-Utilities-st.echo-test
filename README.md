@@ -14,37 +14,22 @@ code_location ("above" or "below")
 Whether to show the echoed code before or after the results of the executed code block.
 
 Example
-import streamlit as st
 
-with st.echo():
-    st.write('This code will be printed')
+![image](https://user-images.githubusercontent.com/93029661/220645469-a6a6746a-5fe1-42c0-a6cb-d904cb79369c.png)
+
     
- ![image (1)](https://user-images.githubusercontent.com/93029661/220639631-d5e13580-9417-4c44-907c-0b0cb04b3273.png)
+![image (1)](https://user-images.githubusercontent.com/93029661/220639631-d5e13580-9417-4c44-907c-0b0cb04b3273.png)
    
 Example main 1
 
-import streamlit as st
+![image (2)](https://user-images.githubusercontent.com/93029661/220645015-49bd5baf-9578-44ad-b546-c846f21a611a.png)
 
-def get_user_name():
-    return 'John'
 
-# ------------------------------------------------
-# Want people to see this part of the code...
+![image(3)](https://user-images.githubusercontent.com/93029661/220643693-9334a037-1f2a-481c-9830-4f737f8b7efc.png)
 
-def get_punctuation():
-    return '!!!'
+Example main 1
 
-greeting = "Hi there, "
-user_name = get_user_name()
-punctuation = get_punctuation()
+![image](https://user-images.githubusercontent.com/93029661/220645219-b515d6f0-2c6d-4a7c-bf9f-b25b1d3509d7.png)
 
-st.write(greeting, user_name, punctuation)
 
-# ...up to here
-# ------------------------------------------------
-
-foo = 'bar'
-st.write('Done!')
-
-![image (2)](https://user-images.githubusercontent.com/93029661/220643693-9334a037-1f2a-481c-9830-4f737f8b7efc.png)
 
