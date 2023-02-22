@@ -9,7 +9,7 @@
 import streamlit as st
 
 def get_user_name():
-    return 'John'
+    return 'Vaibhav'
 
 with st.echo():
     # Everything inside this block will be both printed to the screen
@@ -24,6 +24,7 @@ with st.echo():
 
     st.write(greeting, value, punctuation)
 
+st.write(value, punctuation)
 # And now we're back to _not_ printing to the screen
 foo = 'bar'
 st.write('Done!')
