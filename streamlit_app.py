@@ -24,6 +24,7 @@ with st.echo():
 
     st.write(greeting, value, punctuation)
 
+    st.write(value, punctuation)
 st.write(value, punctuation)
 # And now we're back to _not_ printing to the screen
 foo = 'bar'
