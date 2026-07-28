@@ -1,3 +1,22 @@
+## At a glance
+
+**Created:** 2023-02-22
+
+### Problem
+Needed to understand how Streamlit’s st.echo shows code and results together.
+
+### Solution
+A small Streamlit practice app focused only on the st.echo utility.
+
+### Outcome
+Clear hands-on learning of a Streamlit building block used in later apps.
+
+### Links
+- GitHub: https://github.com/Vaibhavsoni02/streamlit-Utilities-st.echo-test
+- Project page: https://vaibhav.pocpe.com/streamlit-Utilities-st.echo-test/
+- Live demo: https://vaibhavsoni02-streamlit-utilities-st-echo--streamlit-app-w0sp02.streamlit.app/
+
+---
 Live @ https://vaibhavsoni02-streamlit-utilities-st-echo--streamlit-app-w0sp02.streamlit.app/
 
 # streamlit-Utilities-st.echo-test
